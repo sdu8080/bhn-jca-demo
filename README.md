@@ -1,2 +1,0 @@
-# bhn-jca-demo
-
