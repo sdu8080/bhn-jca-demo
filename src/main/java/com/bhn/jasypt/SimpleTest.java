@@ -2,7 +2,14 @@ package com.bhn.jasypt;
 
 import org.jasypt.util.password.StrongPasswordEncryptor;
 
+/**
+ * org.jasypt utility test
+ *
+ * @author sdu0000
+ *
+ */
 public class SimpleTest {
+	
 	
 	/*
 	 * default StringPasswordEncryptor is using SHA-256 with random SALT, perform hash calculation 

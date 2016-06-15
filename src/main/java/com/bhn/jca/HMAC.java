@@ -24,6 +24,7 @@ public class HMAC {
 		
 		try {
 			String hmac = (byteToB64(getHmacSHA256(SECRET, "this is my message.")));
+			System.out.println(byteToB64(getHmacSHA256(SECRET, "this is my message.")));
 			System.out.println(validateHmacString(SECRET, "this is my message.", hmac));
 			System.out.println(validateHmacString(SECRET, null, hmac));
 			System.out.println(validateHmacString(null, "this is my message.", hmac));
